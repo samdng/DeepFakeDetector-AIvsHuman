@@ -1,2 +1,4 @@
-# DeepFake Detector Clasificacion de Imagenes Reales vs Generadas por IA con Deep Learning
+# DeepFake Detector: AI vs Human
+*Clasificacion de imagenes reales vs generadas con IA por medio de DeepLearning*
+
 Description
