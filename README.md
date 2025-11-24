@@ -1,7 +1,7 @@
 # DeepFake Detector: AI vs Human
 *Clasificacion de imagenes reales vs generadas con IA por medio de DeepLearning*
 
-* ***Jefferson Acevedo***
+* ***Jeferson Acevedo***
 * ***Samuel Noriega***
 * ***Oscar Silva***
 
