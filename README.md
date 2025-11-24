@@ -1,6 +1,9 @@
 # DeepFake Detector: AI vs Human
 *Clasificacion de imagenes reales vs generadas con IA por medio de DeepLearning*
 
+![WhatsApp Image 2025-11-23 at 23 24 18_fd557809](https://github.com/user-attachments/assets/7b582700-a545-4db7-b16a-cb6223ef5faa)
+
+
 * ***Jeferson Acevedo***
 * ***Samuel Noriega***
 * ***Oscar Silva***
