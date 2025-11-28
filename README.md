@@ -64,6 +64,16 @@ El desempeño de los modelos se mide mediante:
 
 Estas métricas permiten evaluar el nivel de discriminación entre imágenes reales y generadas por IA.
 
+## Resultados
+
+| **Modelo**          | **Accuracy** | **Precisión** | **Recall** | **AUC**   |
+|---------------------|--------------|----------------|------------|-----------|
+| **DNN**             | 71.12%       | 71.24%         | 71.30%     | 70%       |
+| **Vision Transformer** | 73.64%   | 73.64%         | 73.64%     | 82.32%    |
+| **CNN**             | 62.53%       | 62.36%         | 62.34%     | 60%       |
+| **Transfer Learning** | 86.61%    | 86.95%         | 87%        | 94.40%    |
+| **AutoEncoder**     | 82%          | 82%            | 82%        | 89%       |
+
 ---
 
 ## Estructura del repositorio
