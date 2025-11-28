@@ -1,73 +1,84 @@
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/0e0d8de6-2264-40bb-afe7-dd57be017b3f" />
+
 <div align="center">
-DeepFake Detector: AI vs Human
+
+# DeepFake Detector: AI vs Human  
 <br>
 
-Jeferson Acevedo
- • Samuel Noriega
- • Oscar Silva
+[Jeferson Acevedo](https://github.com/Jeferson0809) • [Samuel Noriega](https://github.com/) • [Oscar Silva](https://github.com/)
+
+---
 
 </div>
 
 La creciente sofisticación de los modelos generativos ha dificultado la distinción entre imágenes reales y aquellas creadas mediante Inteligencia Artificial. Esta problemática afecta la veracidad de la información, la seguridad digital y la confianza en los contenidos visuales que circulan en la web.
 
-Este proyecto desarrolla un sistema de clasificación basado en Deep Learning capaz de diferenciar imágenes fotográficas reales de imágenes sintéticas generadas por IA. Para ello, se realiza un análisis comparativo de diversas arquitecturas de aprendizaje profundo, evaluando su eficiencia y capacidad de generalización ante la heterogeneidad del dataset.
+Este proyecto desarrolla un **sistema de clasificación basado en Deep Learning** capaz de diferenciar imágenes fotográficas reales de imágenes sintéticas generadas por IA. Para ello, se realiza un análisis comparativo de diversas arquitecturas de aprendizaje profundo, evaluando su eficiencia y capacidad de generalización ante la heterogeneidad del dataset.
 
-Objetivo: Diseñar y evaluar modelos de Deep Learning para la detección automatizada de imágenes generadas por IA.
+> **Objetivo:** Diseñar y evaluar modelos de Deep Learning para la detección automatizada de imágenes generadas por IA.
 
-Enfoques evaluados
+---
 
-Redes Neuronales Profundas (DNN / MLP)
-Modelos densos utilizados como línea base.
+## Enfoques evaluados
 
-CNNs diseñadas desde cero
-Arquitecturas convolucionales ligeras para aprender patrones espaciales.
+1. **Redes Neuronales Profundas (DNN / MLP)**  
+   Modelos densos utilizados como línea base.
 
-Transfer Learning con CNNs preentrenadas
-Uso de modelos robustos como ResNet, EfficientNet o MobileNet.
+2. **CNNs diseñadas desde cero**  
+   Arquitecturas convolucionales ligeras para aprender patrones espaciales.
 
-Autoencoders para detección de anomalías
-Se emplea el error de reconstrucción como indicador de posibles DeepFakes.
+3. **Transfer Learning con CNNs preentrenadas**  
+   Uso de modelos robustos como *ResNet*, *EfficientNet* o *MobileNet*.
 
-Dataset: AI-Generated-vs-Real-Images (Hemg)
+4. **Autoencoders para detección de anomalías**  
+   Se emplea el error de reconstrucción como indicador de posibles DeepFakes.
 
-🔗 HuggingFace Dataset: 152,710 imágenes
+---
 
-81,174 sintéticas
+## Dataset: AI-Generated-vs-Real-Images (Hemg)
 
-71,536 reales
+🔗 **HuggingFace Dataset:** *152,710 imágenes*  
+- 81,174 sintéticas  
+- 71,536 reales  
 
-Este conjunto destaca por su alta heterogeneidad visual: fotografías reales, arte digitalizado, documentos escaneados, ilustraciones y paisajes.
+Este conjunto destaca por su **alta heterogeneidad visual**: fotografías reales, arte digitalizado, documentos escaneados, ilustraciones y paisajes.  
 En particular, el subconjunto real incluye imágenes con deterioro físico (rasgaduras, quemaduras, decoloración, ruido analógico), lo que obliga a los modelos a aprender representaciones robustas que diferencien entre:
 
-Ruido natural físico, y
+- **Ruido natural físico**, y  
+- **Artefactos sintéticos** propios de algoritmos generativos.
 
-Artefactos sintéticos propios de algoritmos generativos.
+---
 
-Métricas de evaluación
+## Métricas de evaluación
 
 El desempeño de los modelos se mide mediante:
 
-Accuracy
-
-Precision
-
-Recall
-
-F1-Score
+- Accuracy  
+- Precision  
+- Recall  
+- F1-Score  
 
 Estas métricas permiten evaluar el nivel de discriminación entre imágenes reales y generadas por IA.
 
-Estructura del repositorio
+---
 
-data/ — Scripts y notebooks para carga y preparación de datos.
+## Estructura del repositorio
 
-images/ — Resultados, visualizaciones y ejemplos del modelo.
+- `data/` — Scripts y notebooks para carga y preparación de datos.  
+- `images/` — Resultados, visualizaciones y ejemplos del modelo.  
+- `models/` — Implementación de arquitecturas evaluadas.  
+- `notebooks/` — Experimentos y análisis exploratorios.  
+- `train/` — Scripts de entrenamiento, callbacks y configuración de experimentos.  
 
-models/ — Implementación de arquitecturas evaluadas.
+---
 
-notebooks/ — Experimentos y análisis exploratorios.
+## Ejemplo del dataset
 
-train/ — Scripts de entrenamiento, callbacks y configuración de experimentos.
+<div align="center">
+  
+<img src="https://github.com/user-attachments/assets/7b582700-a545-4db7-b16a-cb6223ef5faa" width="55%">
 
-Ejemplo del dataset
-<div align="center"> <img src="https://github.com/user-attachments/assets/7b582700-a545-4db7-b16a-cb6223ef5faa" width="55%"> </div>
+</div>
+
+---
+
