@@ -73,7 +73,7 @@ A continuación se presentan las métricas obtenidas por cada arquitectura evalu
 | **DNN**             | 71.12%       | 71.24%         | 71.30%     | 70.00%       |
 | **Vision Transformer** | 73.64%   | 73.64%         | 73.64%     | 82.32%    |
 | **CNN**             | 62.53%       | 62.36%         | 62.34%     | 60.00%       |
-| **Transfer Learning** | 86.61%    | 86.95%         | 87%        | 94.40%    |
+| **Transfer Learning** | 86.61%    | 86.95%         | 87.00%        | 94.40%    |
 | **AutoEncoder**     | 82.00%          | 82.00%            | 82.00%        | 89.00%       |
 
 ---
