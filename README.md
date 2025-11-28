@@ -1,6 +1,6 @@
-<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/0e0d8de6-2264-40bb-afe7-dd57be017b3f" />
 
 <div align="center">
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/0e0d8de6-2264-40bb-afe7-dd57be017b3f" />
 
 # DeepFake Detector: AI vs Human  
 <br>
