@@ -80,7 +80,8 @@ Estas métricas permiten evaluar el nivel de discriminación entre imágenes rea
 
 <div align="center">
   
-<img src="https://github.com/user-attachments/assets/7b582700-a545-4db7-b16a-cb6223ef5faa" width="55%">
+<img width="880" height="440" alt="image" src="https://github.com/user-attachments/assets/0b8eaefd-1059-466c-a0ae-96798a2162e4" />
+
 
 </div>
 
