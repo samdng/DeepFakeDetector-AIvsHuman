@@ -60,7 +60,7 @@ El desempeño de los modelos se mide mediante:
 - Accuracy  
 - Precision  
 - Recall  
-- F1-Score  
+- AUC  
 
 Estas métricas permiten evaluar el nivel de discriminación entre imágenes reales y generadas por IA.
 
