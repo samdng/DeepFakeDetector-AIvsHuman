@@ -48,7 +48,7 @@ La idea principal es identificar cuál de ellos funciona mejor frente a un conju
 Este conjunto destaca por su **alta heterogeneidad visual**: fotografías reales, arte digitalizado, documentos escaneados, ilustraciones y paisajes.  
 En particular, el subconjunto real incluye imágenes con deterioro físico (rasgaduras, quemaduras, decoloración, ruido analógico), lo que obliga a los modelos a aprender representaciones robustas que diferencien entre:
 
-- **Ruido natural físico**, y  
+- **Ruido natural físico**. 
 - **Artefactos sintéticos** propios de algoritmos generativos.
 
 ---
