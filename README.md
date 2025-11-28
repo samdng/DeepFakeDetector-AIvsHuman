@@ -13,7 +13,8 @@
 
 La creciente sofisticación de los modelos generativos ha dificultado la distinción entre imágenes reales y aquellas creadas mediante Inteligencia Artificial. Esta problemática afecta la veracidad de la información, la seguridad digital y la confianza en los contenidos visuales que circulan en la web.
 
-Este proyecto desarrolla un **sistema de clasificación basado en Deep Learning** capaz de diferenciar imágenes fotográficas reales de imágenes sintéticas generadas por IA. Para ello, se realiza un análisis comparativo de diversas arquitecturas de aprendizaje profundo, evaluando su eficiencia y capacidad de generalización ante la heterogeneidad del dataset.
+Este proyecto busca construir un sistema que pueda distinguir automáticamente si una imagen es real o fue generada por Inteligencia Artificial. Para lograrlo, probamos diferentes tipos de modelos de Deep Learning y comparamos su desempeño.
+La idea principal es identificar cuál de ellos funciona mejor frente a un conjunto de imágenes muy variado y con muchos estilos visuales.
 
 > **Objetivo:** Diseñar y evaluar modelos de Deep Learning para la detección automatizada de imágenes generadas por IA.
 
