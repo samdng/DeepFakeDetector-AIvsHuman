@@ -1,31 +1,73 @@
-# DeepFake Detector: AI vs Human
-*Clasificacion de imagenes reales vs generadas con IA por medio de DeepLearning*
+<div align="center">
+DeepFake Detector: AI vs Human
+<br>
 
-![WhatsApp Image 2025-11-23 at 23 24 18_fd557809](https://github.com/user-attachments/assets/7b582700-a545-4db7-b16a-cb6223ef5faa)
+Jeferson Acevedo
+ • Samuel Noriega
+ • Oscar Silva
 
+</div>
 
-* ***Jeferson Acevedo***
-* ***Samuel Noriega***
-* ***Oscar Silva***
+La creciente sofisticación de los modelos generativos ha dificultado la distinción entre imágenes reales y aquellas creadas mediante Inteligencia Artificial. Esta problemática afecta la veracidad de la información, la seguridad digital y la confianza en los contenidos visuales que circulan en la web.
 
-La creciente sofisticación de los modelos generativos ha dificultado la distinción entre imágenes reales y artificiales. Este fenómeno impacta negativamente en la veracidad de la información y la seguridad digital, haciendo imperativo el desarrollo de herramientas de detección automatizada.
+Este proyecto desarrolla un sistema de clasificación basado en Deep Learning capaz de diferenciar imágenes fotográficas reales de imágenes sintéticas generadas por IA. Para ello, se realiza un análisis comparativo de diversas arquitecturas de aprendizaje profundo, evaluando su eficiencia y capacidad de generalización ante la heterogeneidad del dataset.
 
-Tenemos como objetivo general desarrollar un sistema de clasificación basado en redes neuronales capaz de discriminar entre imágenes fotográficas reales e imágenes sintéticas generadas por IA.
+Objetivo: Diseñar y evaluar modelos de Deep Learning para la detección automatizada de imágenes generadas por IA.
 
-El proyecto se centra en un análisis comparativo de distintas arquitecturas de Deep Learning para identificar la más eficiente en esta tarea específica. Se evaluarán los siguientes enfoques:
+Enfoques evaluados
 
-1. Redes Neuronales Profundas (DNN / MLP).
+Redes Neuronales Profundas (DNN / MLP)
+Modelos densos utilizados como línea base.
 
-2. Redes Neuronales Convolucionales (CNN) diseñadas desde cero.
+CNNs diseñadas desde cero
+Arquitecturas convolucionales ligeras para aprender patrones espaciales.
 
-3. CNNs optimizadas mediante Transfer Learning.
-   
-5. Autoencoders para detección de anomalías.
+Transfer Learning con CNNs preentrenadas
+Uso de modelos robustos como ResNet, EfficientNet o MobileNet.
 
-El estudio se fundamenta en el dataset 'AI-Generated-vs-Real-Images' (Hemg) alojado en HuggingFace, el cual consta de un corpus de 152,710 muestras balanceadas entre clases (81,174 sintéticas y 71,536 reales).
+Autoencoders para detección de anomalías
+Se emplea el error de reconstrucción como indicador de posibles DeepFakes.
 
-Una característica crítica de este conjunto de datos es su alta heterogeneidad y entropía visual. A diferencia de los datasets curados tradicionales, este repositorio incluye una vasta diversidad de dominios visuales que van más allá de la fotografía digital estándar, incorporando digitalizaciones de obras de arte, escaneos de documentos, ilustraciones y paisajes.
+Dataset: AI-Generated-vs-Real-Images (Hemg)
 
-Particularmente, el subconjunto de imágenes reales presenta desafíos significativos para la clasificación, dado que incluye muestras con degradación física y temporal. Se observan instancias con decoloración cromática, rasgaduras, quemaduras y artefactos propios del envejecimiento del material (ruido analógico). Esta diversidad obliga a los modelos a aprender características robustas, diferenciando entre el ruido natural del mundo físico y los artefactos de generación sintética propios de los algoritmos de IA.
+🔗 HuggingFace Dataset: 152,710 imágenes
 
-El desempeño de los modelos se medirá a través de métricas de clasificación supervisada (Accuracy, Precision, Recall, F1-score). El alcance del proyecto es un prototipo de detección y no contempla la generación de contenido.
+81,174 sintéticas
+
+71,536 reales
+
+Este conjunto destaca por su alta heterogeneidad visual: fotografías reales, arte digitalizado, documentos escaneados, ilustraciones y paisajes.
+En particular, el subconjunto real incluye imágenes con deterioro físico (rasgaduras, quemaduras, decoloración, ruido analógico), lo que obliga a los modelos a aprender representaciones robustas que diferencien entre:
+
+Ruido natural físico, y
+
+Artefactos sintéticos propios de algoritmos generativos.
+
+Métricas de evaluación
+
+El desempeño de los modelos se mide mediante:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+Estas métricas permiten evaluar el nivel de discriminación entre imágenes reales y generadas por IA.
+
+Estructura del repositorio
+
+data/ — Scripts y notebooks para carga y preparación de datos.
+
+images/ — Resultados, visualizaciones y ejemplos del modelo.
+
+models/ — Implementación de arquitecturas evaluadas.
+
+notebooks/ — Experimentos y análisis exploratorios.
+
+train/ — Scripts de entrenamiento, callbacks y configuración de experimentos.
+
+Ejemplo del dataset
+<div align="center"> <img src="https://github.com/user-attachments/assets/7b582700-a545-4db7-b16a-cb6223ef5faa" width="55%"> </div>
